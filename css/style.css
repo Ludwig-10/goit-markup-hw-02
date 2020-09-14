@@ -3,8 +3,7 @@
 }
 body {
     font-family: "Roboto", sans-serif;
-    font-style: normal;
-    background-color: yellowgreen
+    background: #E5E5E5;
 }
 .list {
     list-style: none;
@@ -16,15 +15,17 @@ text-decoration: none;
 .logo {
 font-family: Raleway;
 font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
 color: #2196F3;
 }
+.studio {
+    color: #212121;
+}
 .navigation-list-link,
 .address  {
-font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -34,17 +35,15 @@ letter-spacing: 0.02em;
 .navigation-list-link:hover,
 .navigation-list-link:focus,
 .address:hover,
-.address:focus {
-color: var( --accent-color);
-}
-.navigation-list-link {
-color: #212121;
-}
+.address:focus,
 .address-mail-link:hover,
 .address-mail-link:focus,
 .address-tel-link:hover,
 .address-tel-link:focus {
-    color: var( --accent-color);
+color: var( --accent-color);
+}
+.navigation-list-link {
+color: #212121;
 }
 .address-mail-link,
 .address-tel-link {
@@ -53,7 +52,6 @@ color: #212121;
 /*=======END HEADER========*/
 /*=======HERO========*/
 .hero-title{
-font-family: Roboto;
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
@@ -68,7 +66,6 @@ color: #FFFFFF;
     color: var( --accent-color);
 }
 .button {
-    font-family: Roboto;
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
