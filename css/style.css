@@ -17,10 +17,9 @@ text-decoration: none;
 /*=======HEADER========*/
 .logo {
 font-family: "Raleway", sans-serif;
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.192;
 letter-spacing: 0.03em;
 color: #2196F3;
 }
@@ -29,7 +28,6 @@ color: #2196F3;
 }
 .navigation-list-link,
 .address  {
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.143;
@@ -59,7 +57,6 @@ color: var(--subtitle-collor);
 /*=======END HEADER========*/
 /*=======HERO========*/
 .hero-title{
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.363;
@@ -73,13 +70,10 @@ color: var(--auxiliary-color);
     color: var(--accent-color);
 }
 .button {
-font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.875;
 display: flex;
-align-items: center;
-text-align: center;
 letter-spacing: 0.06em;
 color: var(--auxiliary-color);
 }
@@ -106,7 +100,6 @@ color: var(--subtitle-collor);
 font-weight: 700;
 font-size: 36px;
 line-height: 1.167;
-text-align: center;
 letter-spacing: 0.03em;
 color: var(--bacic-color);
 }
