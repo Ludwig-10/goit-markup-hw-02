@@ -6,7 +6,7 @@
 }
 body {
     font-family: "Roboto", sans-serif;
-    background: #E5E5E5;
+    background-color: #FFFFFF;
 }
 .list {
     list-style: none;
@@ -144,6 +144,9 @@ font-size: 14px;
 line-height: 2;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+}
+.footer-studio {
+    color: #FFFFFF;
 }
 /*====END fotter====*/
 /*===Portfolio button=======*/
