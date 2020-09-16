@@ -3,6 +3,7 @@
     --bacic-color: #212121;
     --auxiliary-color: #FFFFFF;
     --subtitle-collor:  #757575; 
+    --hero-color: #2F303A
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -57,6 +58,9 @@ color: var(--subtitle-collor);
 }
 /*=======END HEADER========*/
 /*=======HERO========*/
+.hero {
+  background-color: var(--hero-color);
+}
 .hero-title{
 font-weight: 900;
 font-size: 44px;
@@ -106,6 +110,9 @@ color: var(--bacic-color);
 }
 /*====END work====*/
 /*====workers====*/
+.section-workers {
+    background-color: #F5F4FA;
+}
 .workers {
 font-weight: 500;
 font-size: 16px;
@@ -121,7 +128,9 @@ letter-spacing: 0.03em;
 color: var(--subtitle-collor);
 }/*====END workers====*/
 /*====fotter====*/
-
+.footer {
+    background-color: var(--hero-color);
+}
 .address-link-maps:hover,
 .address-link-maps:focus,
 .address-link:hover,
