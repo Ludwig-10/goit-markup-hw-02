@@ -159,16 +159,17 @@ color: rgba(255, 255, 255, 0.6);
 }
 /*====END fotter====*/
 /*===Portfolio button=======*/
+.portfolio-button:hover,
+.portfolio-button:focus {
+background-color: var(--accent-color);
+color: var(--auxiliary-color);
+}
 .portfolio-button {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.625;
 letter-spacing: 0.03em;
 color: var(--bacic-color);
-}
-.portfolio-button:hover,
-.portfolio-button:focus {
-color: var(--auxiliary-color);
 }
 /*========END Portfolio button=======*/
 /*======== Portfolio =======*/
